@@ -1,16 +1,15 @@
-import { Container } from './components/Container'
-import { Logo } from './components/Logo'
-import { Menu } from './components/Menu'
-import { CountDown } from './components/CountDown'
-import { Cycles } from './components/Cycles'
-import { DefaultInput } from './components/DefaultInput'
-import { DefaultButton } from './components/DefaultButton'
-import { PlayCircleIcon } from 'lucide-react'
-import { Footer } from './components/Footer'
+import { PlayCircleIcon } from 'lucide-react';
+import { Container } from './components/Container';
+import { CountDown } from './components/CountDown';
+import { Cycles } from './components/Cycles';
+import { DefaultButton } from './components/DefaultButton';
+import { DefaultInput } from './components/DefaultInput';
+import { Footer } from './components/Footer';
+import { Logo } from './components/Logo';
+import { Menu } from './components/Menu';
 
-import './styles/theme.css'
-import './styles/global.css'
-
+import './styles/global.css';
+import './styles/theme.css';
 
 export function App() {
     return (
@@ -52,4 +51,4 @@ export function App() {
             </Container>
         </>
     );
-};
+}
